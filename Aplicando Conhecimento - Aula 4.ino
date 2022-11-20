@@ -5,8 +5,8 @@
 #define pino1 12  //D6
 
 //WiFi
-const char* SSID = "OSCOREA";                // SSID / nome da rede WiFi que deseja se conectar
-const char* PASSWORD = "Ecomex1234";   // Senha da rede WiFi que deseja se conectar
+const char* SSID = "";                // SSID / nome da rede WiFi que deseja se conectar
+const char* PASSWORD = "";   // Senha da rede WiFi que deseja se conectar
 WiFiClient wifiClient;                        
  
 //MQTT Server
@@ -138,4 +138,3 @@ void enviaValores() {
   delay(1);
 
 }
-
