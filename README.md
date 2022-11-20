@@ -6,7 +6,7 @@ O Equipamento de Eletrocardiograma Domiciliar tem o objetivo de facilitar e popu
 ## Componentes
 O circuito do projeto é composto por um NodeMcu e um módulo ECG(AD8232) que pode se conectar com 3 eletroodos através de um cabo de conexão. O circuito foi montado de acordo com a imagem abaixo 
 
-![Screenshot](Modelo Circuito.png)
+![alt text](https://github.com/arthurgcorrea/Ecg/blob/7722439268c9c18847e11d441b4d22304f823f24/Modelo%20Circuito.png)
 
 ## Conectividade
 Neste projeto o NodeMcu se conecta a um fluxo do Node-RED na internet através do protocolo MQTT. Ele faz isso através de duas bibliotecas, a PubSubClient e a ESP8266WiFi, e se conecta ao broker no endereço "broker.mqtt-dashboard.com".
@@ -22,7 +22,7 @@ The Home Electrocardiogram Equipment has the goal of facilitating and regularizi
 ## Components
 The circuit is projected to work with a NodeMcu and an ECG module(AD8232) that connects with 3 electrodes. The circuit was build following the model below:
 
-![Screenshot](Modelo Circuito.png)
+![alt text](https://github.com/arthurgcorrea/Ecg/blob/7722439268c9c18847e11d441b4d22304f823f24/Modelo%20Circuito.png)
 
 ## Connectivity
 In this project the NodeMcu connects to an Node-RED flow on the internet, using the MQTT protocol. It does that using two libraries, PubSubClient and ESP8266WiFi, and itconnects to the broker on the "broker.mqtt-dashboard.com" address.
