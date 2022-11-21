@@ -25,4 +25,4 @@ The circuit is projected to work with a NodeMcu and an ECG module(AD8232) that c
 ![alt text](https://github.com/arthurgcorrea/Ecg/blob/7722439268c9c18847e11d441b4d22304f823f24/Modelo%20Circuito.png)
 
 ## Connectivity
-In this project the NodeMcu connects to an Node-RED flow on the internet, using the MQTT protocol. It does that using two libraries, PubSubClient and ESP8266WiFi, and itconnects to the broker on the "broker.mqtt-dashboard.com" address.
+In this project the NodeMcu connects to an Node-RED flow on the internet, using the MQTT protocol. It does that using two libraries, PubSubClient and ESP8266WiFi, and it connects to the broker on the "broker.mqtt-dashboard.com" address.
